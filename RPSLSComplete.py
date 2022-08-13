@@ -237,3 +237,6 @@ while True:
         print()
     except ValueError:
         print()
+    except NameError:
+        print()
+        break
