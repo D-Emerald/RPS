@@ -83,9 +83,9 @@ class Cycle(Player):
         self.index_of_current_move = \
             (self.index_of_current_move + 1) % len(moves)
         return next_move
+
+
 # 'Parent Game class'
-
-
 class Game:
     def __init__(self, p1, p2):
         self.p1 = p1
